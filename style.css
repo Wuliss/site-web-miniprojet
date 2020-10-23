@@ -90,17 +90,18 @@ h1 {
 }
 
 .content2 {
-    text-align: center;
     font-size: 0; /* retire l'espace de 4px entre les div */
 }
 
 .content2 div {
     font-size: medium;
     background-color: #e9c46a;
-    border-radius: 3px;
     width: 50%;
-    height: 400px;
+    height: 350px;
     display: inline-block;
+    
+    border-top: 5px solid #2a9d8f;
+    border-bottom: 5px solid #2a9d8f;
 }
 
 /* footer */
