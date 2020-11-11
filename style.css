@@ -8,14 +8,6 @@ body {
     background-color: white;
 }
 
-/* Menu */
-
-header div {
-    background-image: url("banner.jpg");
-    background-size: cover;
-    padding: 50px 25%;
-}
-
 /* Titres */
 
 h1 {
@@ -27,6 +19,14 @@ h1 {
 h1 a {
     text-decoration: none;
     color: #27AE60;
+}
+
+/* Menu */
+
+header div {
+    background-image: url("banner.jpg");
+    background-size: cover;
+    padding: 50px 25%;
 }
 
 nav {
@@ -139,4 +139,44 @@ footer {
 footer h3 {
     display: inline-block;
     padding: 50px;
+}
+
+/* responsive */
+
+@media screen and (max-width:780px) /* smartphone */
+{
+
+nav li {
+    float: none;
+    width: auto;
+}
+
+nav {
+    position: static;
+}
+
+.images div {
+    display: block;
+    width: auto;
+}
+
+}
+
+@media print {
+    nav {
+        display: none;
+    }
+    
+    .images div {
+        display: none;
+    }
+
+    footer h3 {
+        display: block;
+        padding: 10px;
+    }
+
+    footer {
+        text-align: left;
+    }
 }
