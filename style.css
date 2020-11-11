@@ -24,6 +24,11 @@ h1 {
     background-color: #17202A;
 }
 
+h1 a {
+    text-decoration: none;
+    color: #27AE60;
+}
+
 nav {
     width: 100%;
     margin: 0 auto;
