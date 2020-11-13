@@ -90,13 +90,7 @@ footer h3{
 
 /*responsive*/
 @media screen and (max-width: 780px){ /*smartphone*/
-    nav ul{
-        flex-flow: column wrap;
-        width: 100%;
-    }
-    nav li{
-        text-align: center;
-    }
+
 }
 @media print{
     nav{
