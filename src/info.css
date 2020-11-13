@@ -13,6 +13,9 @@
     text-align: center;
     padding: 10px 5%;
 }
+#img img{
+    width: 95%;
+}
 #art1 a{
     text-decoration: none;
     color: #2330FF;

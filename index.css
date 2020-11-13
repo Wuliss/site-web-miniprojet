@@ -16,6 +16,7 @@
 }
 #images div{
     display: inline-block;
+    vertical-align: bottom;
     width: 30%;
     margin: 0 auto;
     background-color: #1E8449;

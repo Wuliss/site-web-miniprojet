@@ -6,8 +6,8 @@
 body{
     min-height: 100vh;
 	background-color: white;
-    display: grid;
-    grid-template-rows: auto auto 1fr auto;
+    display: flex;
+    flex-direction: column;
 }
 
 /*banniere*/
@@ -73,6 +73,11 @@ nav > ul li:hover .sous{
     border-top: none;
 }
 
+/*contenu de la page*/
+section{
+    flex: 1;
+}
+
 /*pied de page*/
 footer{
 	background-color: #17202A;
@@ -89,13 +94,21 @@ footer h3{
 }
 
 /*responsive*/
-@media screen and (max-width: 780px){ /*smartphone*/
+@media (max-width: 780px){ /*smartphone*/
+    nav{
+        position: static;
+    }
     nav ul{
+        position: static;
         flex-flow: column wrap;
         width: 100%;
     }
-    nav li{
-        text-align: center;
+    footer{
+        display: block;
+    }
+    #images div{
+        display: block;
+        width: 80vh;
     }
 }
 @media print{
