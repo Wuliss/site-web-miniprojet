@@ -2,30 +2,34 @@
 <html lang="fr">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="../style.css">
-		<link rel="stylesheet" href="style_cv_girard1.css">
-		<title>CV Clément Girard</title>
+		<link rel="stylesheet" href="style-cv-girard.css">
+		<title>CV Clément GIRARD</title>
 	</head>
 	<body>
-		<h1>Les attaques forces brutes</h1>
-
+		<!-- en-tête de la page -->
+		<header>
+			<div id="banniere">
+				<h1><a href="../index.html">Les attaques par force brute</a></h1>
+			</div>
+		
+		</header>
+		<!-- menu de navigation -->
 		<nav>
 			<ul>
 				<li><a href="../info.html">Qu'est-ce que c'est ?</a></li>
-				<li><a href="#">English</a></li>
-				<li><a href="#">Sources</a></li>
-				<!-- Menu déroulant -->
+				<li><a href="../english.html">English</a></li>
+				<li><a href="../reference.html">Références</a></li>
 				<li><a href="#">CV</a>
-					<ul>
+					<ul class="sous">
 						<li><a href="#">CV Clément GIRARD</a></li>
-						<li><a href="../CV_RAVAUX/cv_ravaux.html">CV Louis Ravaux</a></li>
+						<li><a href="../CV_RAVAUX/cv_ravaux.html">CV Louis RAVAUX</a></li>
 					</ul>
 				</li>
 			</ul>
 		</nav>
-
-		<div id="content">
+		<!-- corps de la page -->
+		<section>
 			<table>
 				<td id="gauche"><img src="pi.png" alt="photo d'identité" width="150px" heigth="200"/></td>
 				<td id="droite">
@@ -41,7 +45,7 @@
 				</td>
 			</table>		
 			
-			<div id="sommaire">
+			<article id="sommaire">
 				<h2>Sommaire</h2>
 				<ul id="mainmenu">
 					<li><a href="#formation">
@@ -65,11 +69,11 @@
 						<span>contact</span>
 					</a></li>
 				</ul>
-			</div>
+			</article>
 
 			<hr>
 
-			<div id="contenu">
+			<article id="contenu">
 				<h2 id="formation">formation : </h2>
 				<ul>
 					<li><p><strong>bac sti2d</strong> spécialité sin</p></li>
@@ -88,23 +92,14 @@
 					sport : pratique le tir à l'arc en club </br>
 					animaux : 2 chats
 				</p>
-			</div>
+			</article>
 
-		</div>
-
+		</section>
+		<!-- pied de la page -->
 		<footer>
-			<address>
-				<h2 id="contact">contact : </h2>
-				<p>
-					Adresse postale : </br>
-					13 rue des Germandrées</br>
-					Itteville 91760
-				</p>
-				<a href="mailto:clementgirard2011@gmail.com">Envoyer un mail à Clément Girard.</a> </br>
-				<a href="tel:0781941306">Contacter Clément Girard par téléphone.</a>
-			</address>
-			<img src="../logo.jpg" alt="logo du département" width="300" height="150">
+			<h3>RAVAUX Louis<br> Email: <a href="mailto:lravaux78@gmail.com">lravaux78@gmail.com</a></h3>
+			<h3>GIRARD Clément<br> Email: <a href="mailto:clementgirard2011@gmail.com">clementgirard2011@gmail.com</a></h3>
+			<img src="../src/img/logo.jpg" alt="logo" width="300" height="150">
 		</footer>
-
 	</body>
 </html>

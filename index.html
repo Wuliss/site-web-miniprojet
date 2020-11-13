@@ -1,72 +1,62 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Les attaques par force brute</title>
-</head>
-<body>
-    <header>
-        <div>
-            <h1><a href="index.html">Les attaques forces brutes</a></h1>
-        </div>
-    </header>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="index.css">
+		<title>Les attaques par force brute</title>
+	</head>
+	<body>
+		<!-- en-tête de la page -->
+		<header>
+			<div id="banniere">
+				<h1><a href="#">Les attaques par force brute</a></h1>
+			</div>
+		
+		</header>
+		<!-- menu de navigation -->
+		<nav>
+			<ul>
+				<li><a href="src/info.html">Qu'est-ce que c'est ?</a></li>
+				<li><a href="src/english.html">English</a></li>
+				<li><a href="src/reference.html">Références</a></li>
+				<li><a href="#">CV</a>
+					<ul class="sous">
+						<li><a href="cv_girard/cv_girard.html">CV Clément GIRARD</a></li>
+						<li><a href="cv_ravaux/cv_ravaux.html">CV Louis RAVAUX</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<!-- corps de la page -->
+		<section>
+			<article id="art1">
+				<h2>Présentation</h2>
+				<br>
+				<p>Les attaques par force brute ou brute force en anglais permettent de trouver le nom d'utilisateur ou un mot de passe en recherchant toutes les combinaisons possibles. Pour ce faire les pirates utilisent souvent des logiciels spécialisés pour effectuer l'attaque. Ces attaques sont longues à faire car tester toutes les combinaisons possibles de chaines de caractère est long. Pour simplifier cette tâche les pirates utilisent souvent des dictionnaires. Un dictionnaire pour les attaques par force brute est un ou plusieurs fichiers qui contiennent des chaines de caractères diverses et variées pour éviter à la machine de rechercher toutes les combinaisons possibles et donc gagner du temps. En plus des dictionnaires, les pirates utilisent aussi des algorithmes qui permettent de mettre certaines lettres en majuscules ou des caractères spéciaux à certains endroits. Il y a aussi des attaques par force brute inversée, ça consiste à utiliser un mot de passe qui a fuité par exemple et ensuite rechercher tous les noms d'utilisateur qui pourraient utiliser ce mot de passe, cela est pratique quand un pirate veut revendre des comptes car plus il a de comptes à vendre, plus il se fera d'argent donc s'il trouve plusieurs comptes avec le même mot de passe il pourra revendre plus de comptes. Beaucoup de pirates peuvent trouver un mot de passe en moins d'une seconde grâce aux dictionnaires. S'ils n'avaient pas eu de dictionnaire cela aurait pris plusieurs années. Des outils automatisés sont également disponibles pour vous aider à lutter contre les attaques par force brute (Brutus, Medusa, THC Hydra, Ncrack, John the Ripper, Aircrack-ng et Rainbow, par exemple). Ces outils agissent contre de nombreux protocoles informatiques (FTP, MySQL, SMPT et Telnet par exemple) et permet à des pirates de craquer des modems sans fil, d'identifier des mots de passe faibles, de déchiffrer les mots de passe en stockage chiffré, de traduire des mots en leet speack (« don'thackme » [nemepiratepas] devient « d0n7H4cKm3 », par exemple), d'exécuter toutes les combinaisons de caractères possibles et d'opérer des attaques par dictionnaire. Les protocoles cités précédemment sont des protocoles qui ne sont pas ou très peu sécurisé donc les mots de passes peuvent se trouver facilement.</p>
+			</article>
+			<article id="art2">
+				<div id="images">
+					<div>
+						<img src="src/img/kali_logo.png" alt="kali linux logo">
+						<p>Logo de la distribution Kali Linux</p>
+					</div>
+					<div>
+						<img src="src/img/logo_ripper.png" alt="John the ripper logo">
+						<p>Logo de l'outil John the ripper</p>
+					</div>
+				</div>
 
-    <nav>
-        <ul>
-            <li><a href="src/info.html">Qu'est-ce que c'est ?</a></li>
-            <li><a href="#">English</a></li>
-            <li><a href="#">Sources</a></li>
-            <!-- Menu déroulant -->
-            <li><a href="#">CV</a>
-                <ul>
-                    <li><a href="../CV_GIRARD/cv_girard.html">CV Clément GIRARD</a></li>
-                    <li><a href="../CV_RAVAUX/cv_ravaux.html">CV Louis Ravaux</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-    
-    <div class="content">
-        <h2>Présentation</h2>
-        <br>
-        <p>
-            Les attaques par force brute ou brute force en anglais permettent de trouver le nom d'utilisateur ou un mot de passe en recherchant toutes les combinaisons possibles. Pour ce faire les pirates utilisent souvent des logiciels spécialisés pour effectuer l'attaque. Ces attaques sont longues à faire car tester toutes les combinaisons possibles de chaines de caractère est long. Pour simplifier cette tâche les pirates utilisent souvent des dictionnaires. Un dictionnaire pour les attaques par force brute est un ou plusieurs fichiers qui contiennent des chaines de caractères diverses et variées pour éviter à la machine de rechercher toutes les combinaisons possibles et donc gagner du temps. En plus des dictionnaires, les pirates utilisent aussi des algorithmes qui permettent de mettre certaines lettres en majuscules ou des caractères spéciaux à certains endroits. Il y a aussi des attaques par force brute inversée, ça consiste à utiliser un mot de passe qui a fuité par exemple et ensuite rechercher tous les noms d'utilisateur qui pourraient utiliser ce mot de passe, cela est pratique quand un pirate veut revendre des comptes car plus il a de comptes à vendre, plus il se fera d'argent donc s'il trouve plusieurs comptes avec le même mot de passe il pourra revendre plus de comptes. Beaucoup de pirates peuvent trouver un mot de passe en moins d'une seconde grâce aux dictionnaires. S'ils n'avaient pas eu de dictionnaire cela aurait pris plusieurs années. Des outils automatisés sont également disponibles pour vous aider à lutter contre les attaques par force brute (Brutus, Medusa, THC Hydra, Ncrack, John the Ripper, Aircrack-ng et Rainbow, par exemple). Ces outils agissent contre de nombreux protocoles informatiques (FTP, MySQL, SMPT et Telnet par exemple) et permet à des pirates de craquer des modems sans fil, d'identifier des mots de passe faibles, de déchiffrer les mots de passe en stockage chiffré, de traduire des mots en leet speack (« don'thackme » [nemepiratepas] devient « d0n7H4cKm3 », par exemple), d'exécuter toutes les combinaisons de caractères possibles et d'opérer des attaques par dictionnaire. Les protocoles cités précédemment sont des protocoles qui ne sont pas ou très peu sécurisé donc les mots de passes peuvent se trouver facilement.
-        </p>
-    </div>
-
-    <div class="content2">
-
-        <div class="images">
-            <div>
-                <img src="src/img/kali_logo.png" alt="kali linux logo">
-                <br>
-                <p>Logo de la distribution Kali Linux</p>
-            </div>
-            <div>
-                <img src="src/img/logo_ripper.png" alt="John the ripper logo">
-                <br>
-                <p>Logo de l'outil John the ripper</p>
-            </div>
-        </div>
-
-        <div>
-            <p>Kali Linux est disponible sous forme de live DVD. Il est également possible de l’installer sur un disque dur, sur une clé USB, de mettre en place un démarrage PXE, ou encore de le virtualiser par-dessus son système d’exploitation grâce à des images disque virtuelles proposées en téléchargement. Il est également possible de construire son propre DVD en utilisant les scripts Debian live-build.
-
-                Cette distribution est utilisée par des auditeurs en sécurité des systèmes d’information dans le cadre de l’audit automatisé de premier niveau, permettant d'évaluer la sécurité intrinsèque d’un environnement.
-                
-                Kali Linux propose plus de 6007 programmes d’analyse de sécurité pré-installés, dont Armitage (logiciel) (un outil graphique de contrôle des attaques), Nmap (un scanneur de ports), Wireshark (un analyseur de paquets), John the Ripper (un outil de cassage de mots de passe), Aircrack (une suite logicielle pour les analyses de sécurité de réseaux sans fil), Burp suite, OWASP ZAP (en) (tous deux des scanneurs de sécurité pour applications web)8 et même un outil d’ingénierie sociale.</p>
-        </div>
-
-    </div>
-
-    <footer>
-        <h3>RAVAUX Louis <br> Email: <a href="mailto:lravaux78@gmail.com">lravaux78@gmail.com</a></h3>
-        <h3>GIRARD Clément <br> Email: <a href="mailto:clementgirard2011@gmail.com">clementgirard2011@gmail.com</a></h3>
-
-        <img src="src/img/logo.jpg" alt="logo" width="300" height="150">
-    </footer>
-
-</body>
+				<p>
+					Kali Linux est disponible sous forme de live DVD. Il est également possible de l’installer sur un disque dur, sur une clé USB, de mettre en place un démarrage PXE, ou encore de le virtualiser par-dessus son système d’exploitation grâce à des images disque virtuelles proposées en téléchargement. Il est également possible de construire son propre DVD en utilisant les scripts Debian live-build. Cette distribution est utilisée par des auditeurs en sécurité des systèmes d’information dans le cadre de l’audit automatisé de premier niveau, permettant d'évaluer la sécurité intrinsèque d’un environnement. Kali Linux propose plus de 6007 programmes d’analyse de sécurité pré-installés, dont Armitage (logiciel) (un outil graphique de contrôle des attaques), Nmap (un scanneur de ports), Wireshark (un analyseur de paquets), John the Ripper (un outil de cassage de mots de passe), Aircrack (une suite logicielle pour les analyses de sécurité de réseaux sans fil), Burp suite, OWASP ZAP (en) (tous deux des scanneurs de sécurité pour applications web)8 et même un outil d’ingénierie sociale.
+				</p>
+			</article>
+		</section>
+		<!-- pied de la page -->
+		<footer>
+			<h3>RAVAUX Louis<br> Email: <a href="mailto:lravaux78@gmail.com">lravaux78@gmail.com</a></h3>
+			<h3>GIRARD Clément<br> Email: <a href="mailto:clementgirard2011@gmail.com">clementgirard2011@gmail.com</a></h3>
+			<img src="src/img/logo.jpg" alt="logo" width="300" height="150">
+		</footer>
+	</body>
 </html>
