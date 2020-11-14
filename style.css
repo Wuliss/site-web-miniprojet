@@ -94,7 +94,7 @@ footer h3{
 }
 
 /*responsive*/
-@media (max-width: 780px){ /*smartphone*/
+@media screen and (max-width: 780px){ /*smartphone*/
     nav{
         position: static;
     }
