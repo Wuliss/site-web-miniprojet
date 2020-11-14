@@ -3,81 +3,109 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="../style.css">
+		<link rel="stylesheet" href="style-cv-ravaux.css">
 		<title>CV</title>
 	</head>
 <body>
 
+	<!-- en-tête de la page -->
 	<header>
-        <div>
-            <h1><a href="../index.html">Les attaques forces brutes</a></h1>
-        </div>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="../info.html">Qu'est-ce que c'est ?</a></li>
-            <li><a href="#">English</a></li>
-            <li><a href="#">Sources</a></li>
-            <!-- Menu déroulant -->
-            <li><a href="#">CV</a>
-                <ul>
-                    <li><a href="../CV_GIRARD/cv_girard.html">CV Clément GIRARD</a></li>
-                    <li><a href="CV_RAVAUX/cv_ravaux.html">CV Louis Ravaux</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-
-	<h2>Sommaire</h2>
-	<ul>
-		<li><a href="#formation">Formations</a></li>
-		<li><a href="#competence">Compétences</a></li>
-		<li><a href="#experience">Expériences professionelles</a></li>
-		<li><a href="#divers">Divers</a></li>
-		
-	</ul>
-	<hr>
-	<table style="border:1px solid black">
-		<tr>
-			<td><img width="150px" height="180px" src="img/pp.jpg"/></td>
-			<td><address>11 rue des vignes Tacoignères 78910, Email: <a href=mailto:lravaux78@gmail.com>lravaux78@gmail.com</a></address></td>
-		</tr>
-	</table>
+		<div id="banniere">
+			<h1><a href="../index.html">Les attaques par force brute</a></h1>
+		</div>
 	
-	<ul>
-	</ul>
+	</header>
+	<!-- menu de navigation -->
+	<nav>
+		<ul>
+			<li><a href="../src/info.html">Qu'est-ce que c'est ?</a></li>
+			<li><a href="../src/english.html">English</a></li>
+			<li><a href="../src/reference.html">Références</a></li>
+			<li><a href="#">CV</a>
+				<ul class="sous">
+					<li><a href="../cv_girard/cv_girard.html">CV Clément GIRARD</a></li>
+					<li><a href="../cv_ravaux/cv_ravaux.html">CV Louis RAVAUX</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
 
-	<ul>
-		<li><h2 id="formation">Formations</h2></li>
+	<!-- corps de la page -->
+	<section>
+
+		<div id="sommaire">
+			<h2>Sommaire</h2>
 			<ul>
-				<li>
-					<p><strong>Baccalauréat, Bac S</strong></p>
-				</li>
-				<li>
-					<p>DUT <strong>réseau et telecommunication</strong>, formation initiale semestre 1&2, Velizy</p>
-				</li>
+				<li><a href="#formation">1. Formations</a></li>
+				<li><a href="#competence">2. Compétences</a></li>
+				<li><a href="#experience">3. Expériences professionelles</a></li>
+				<li><a href="#divers">4. Divers</a></li>
 			</ul>
-		
+		</div>
 
-		<li><h2 id="competence">Compétences</h2></li>
-			<ul>
-				<li>
-					<p>Formation généralisée au lycée</p>
-				</li>
-				<li>
-					<p>Réseau et Télécom</p>
-				</li>
-			</ul>
-		
+		<br>
+		<hr>
+		<br>
 
-		<li><h2 id="experience">Expériences professionelles</h2></li>
-			<p>Aucune compétences professionelles</p>
+		<table>
+			<tr>
+				<td><img width="150px" height="180px" src="pp.jpg"/></td>
+				<td><address>11 rue des vignes Tacoignères 78910, Email: <a href=mailto:lravaux78@gmail.com>lravaux78@gmail.com</a></address></td>
+			</tr>
+		</table>
 		
+		<ul>
+		</ul>
 
-		<li><h2 id="divers">Divers</h2></li>
-		<img src="img/logoRT.jpg"/>
-		
-	</ul>
+		<ul id="contenu">
+			<li><h2 id="formation">Formations</h2></li>
+				<ul>
+					<li>
+						<p>2016-2017 : <strong> Diplôme du brevet des collèges </strong>: Collège Georges Pompidou, Orgerus 78, consolidation des acquis de l’enseignement général.</p>
+					</li>
+					<li>
+						<p>2019-2020 :<strong> Diplôme du Baccalauréat S </strong> : Lycée Jean-Monnet, La Queue-lez-Yvelines 78, spécialité scientifique, mathématique, physique et sciences de la vie et de la terre.</p>
+					</li>
+					<li>
+						<p>2020 : <strong>DUT réseau et telecommunication</strong>, formation initiale semestre 1&2, Velizy</p>
+					</li>
+				</ul>
+			<br>
+
+			<li><h2 id="competence">Compétences</h2></li>
+				<ul>
+					<li>
+						<p>Formation généralisée au lycée</p>
+					</li>
+					<li>
+						<p>Réseau et Télécom</p>
+					</li>
+					<br>
+					<li>
+						Français : langue maternelle
+					</li>
+					<li>
+						Anglais : Niveau B2
+					</li>
+					<li>
+						Espagnol : Niveau Scolaire
+					</li>
+				</ul>
+
+			<br>
+
+			<li><h2 id="experience">Expériences professionelles</h2></li>
+				<p><strong>Stage de découverte en entreprise </strong>: Société Valeo 95, centre de recherches et
+					développement, service support Informatique et pôle calculs et simulations.
+					Rédaction de procédures et analyses de données. </p>
+			
+			<br>
+
+			<li><h2 id="divers">Divers</h2></li>
+			<img src="../src/img/logo.jpg" alt="logo" width="300" height="150"/>
+			
+		</ul>
+	</section>
 
 	<footer>
         <h3>RAVAUX Louis <br> Email: <a href="mailto:lravaux78@gmail.com">lravaux78@gmail.com</a></h3>

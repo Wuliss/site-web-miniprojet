@@ -1,0 +1,33 @@
+section {
+    padding: 0 20px;
+}
+
+table {
+    border: 1px black solid;
+}
+
+h2 {
+    color: #27AE60;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #27AE60;
+}
+
+#sommaire {
+    background-color: lightgrey;
+    margin: 10px;
+    width: 30%;
+    border: 1px grey solid;
+}
+
+
+/**/
