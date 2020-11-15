@@ -47,13 +47,6 @@
 		        </div><br>
 	            <p>Il est aussi possible de chiffrer les mots de passe et de préférences avec le plus de bits possible (128 bits ou 256 bits). Quand un mot de passe est chiffré, il existe un hash qui correspond à ce mot de passe et ce hash peut être composé d'une clé publique et une clé privée qui serviront à décrypter le mot de passe. Chaques hash sont unique car ils dépendent de l'algorythme utilisé pour hasher le mot de passe. Sans ses hash là le mot de passe ne peut pas être décrypté donc les hackers utilisent l'attaque par force brute pour essayer de trouver les clés de décryptages mais vu qu'elles sont longues et complexes et sécurisé il est très compliqué voir presque impossible de trouver des clés de hash avec l'attaque par force brute. Pour essayer de décrypter un mot de passe chiffré, il faudrait utilisé une raimbow table qui aide à faire cette tache ou sinon être en possession de l'algorythme et de mot de passe chiffré pour faire la procédure inverse au chiffrement. La majorité des gens ne hash par leurs mots de passes car tout le monde ne connait pas l'existence des hash et il est aussi plus compliqué à mettre en place que de simplement écrire un mot de passe. Une méthode qui permet de limiter ces attaques est de mettre un nombre d'essais maximum sur un certains intervalle de temps comme par exemple les cartes bancaires qui limitent les erreurs de mot de passes à 3 tentatives maximum avant que la carte soit bloquée. Sur un VPS (machine serveur), il est possible d'utiliser fail2ban et de le configurer pour bannir l'IP de la personne qui essaye de se connecter si elle fait un mauvais mot de passe 3 fois de suite en moins d'une minute.</p><br>
 	            
-	            <p><u>Sources : </u><br>
-	                - <a href="https://www.malekal.com/les-attaques-par-brute-force-cracker-mot-passe/">malekal.com</a><br>
-	                - <a href="https://fr.wikipedia.org/wiki/Attaque_par_force_brute">wikipedia.org</a><br>
-	                - <a href="https://www.kaspersky.fr/resource-center/definitions/brute-force-attack">kaspersky.fr</a><br>
-	                - <a href="https://www.equinode.com/blog/article/generer-une-chaine-de-caracteres-aleatoire-avec-javascript">equinode.com</a><br>
-	                - connaissances<br>
-	            </p>
 	        </article>
 		</section>
 		<!-- pied de la page -->
